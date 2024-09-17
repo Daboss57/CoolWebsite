@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        nav {
+            background-color: #97b1ff;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 1rem;
+            padding: 1rem;
+            width: 200px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 1rem;
+        }
+
+        .product h2 {
+            font-size: 30px;
+            margin: 0.5rem 0;
+        }
+
+        .product p {
+            color: #555;
+        }
+
+        .product .price {
+            font-size: 1rem;
+            color: #e91e63;
+            margin: 0.5rem 0;
+        }
+
+        .product button {
+            background-color: #e91e63;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .product button:hover {
+            background-color: #d81b60;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cartier</h1>
+    </header>
+    <nav>
+        <div class="dropdown">
+            <a href="#">Products</a>
+            <div class="dropdown-content">
+                <a href="perfumes.html">Perfumes</a>
+                <a href="watches.html">Watches</a>
+                <a href="jewelry.html">Jewelry</a>
+            </div>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="header">
+        <h1>Jewelry Store</h1>
+    </div>
+    <div class="container">
+        <div class="product">
+            <img src="" alt="Perfume Image">
+            <h2>Jewelry Name 1</h2>
+            <p>Jewelry description goes here.</p>
+            <p class="price">$49.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="" alt="Perfume Image">
+            <h2>Jewelry Name 2</h2>
+            <p>Jewelry description goes here.</p>
+            <p class="price">$59.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="" alt="Perfume Image">
+            <h2>Jewelry Name 3</h2>
+            <p>Jewelry description goes here.</p>
+            <p class="price">$69.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</body>
+
+</html>
